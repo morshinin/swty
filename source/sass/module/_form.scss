@@ -1,0 +1,18 @@
+// _form.scss
+.m-form {
+  &_label {
+    color: $fadedTextColor;
+    font-weight: 700;
+    // line-height: 42px;
+    display: inline-block;
+    margin-bottom: 24px;
+  }
+  &_input {
+    display: inline-block;
+    width: 213px;
+    height: 64px;
+    color: $borderColor;
+    padding: 23px 0 22px 16px;
+    vertical-align: middle;
+  }
+}

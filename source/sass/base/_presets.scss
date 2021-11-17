@@ -1,0 +1,63 @@
+@lost gutter 20px;
+
+* {
+  box-sizing: border-box;
+}
+// html {
+//   @include desktop {
+//     min-width: 980px;
+//   }
+//   @include tablet {
+//     min-width: 760px;
+//   }
+// }
+body {
+  font-family: $baseFont;
+  line-height: $baseLine;
+  background-color: $mainBg;
+  font-size: $baseFontSize;
+  color: $baseTextColor;
+  // max-width: 1280px;
+  // lost-utility: edit;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+h1 {
+
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+.l-container {
+  lost-center: $container;
+}
+.align-right {
+  float: right;
+}
+.align-left {
+  float: left;
+}
+.align-center {
+  margin: 0 auto;
+}
+.text-right {
+  text-align: right;
+}

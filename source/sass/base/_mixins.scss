@@ -1,0 +1,45 @@
+// _mixins.scss
+
+@mixin xray {
+  * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+}
+
+
+@mixin listUnstyled {
+  list-style-type: none;
+}
+// grid container
+@mixin row {
+  lost-center: $container 20px;
+}
+
+// mixins for media
+$phone-width: 450px;
+$tablet-width: 768px;
+$desktop-width: 980px;
+
+@mixin tablet {
+  @media screen and (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+@mixin phone {
+  @media screen and (max-width: #{$phone-width}) {
+    @content;
+  }
+}
+@mixin ios {
+  @media
+  only screen and (min-device-pixel-ratio: 1.5) {
+    @content;
+  }
+}

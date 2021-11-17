@@ -1,0 +1,21 @@
+// _config.scss
+
+// Grid settings
+$container: 1280px;
+
+// Typography
+$baseFontSize: 16px;
+$baseLine: 22px;
+
+// Font families
+$baseFont: "Roboto", sans-serif;
+$secondFont: "FreeSerif", serif;
+
+// Colors
+$mainBg: #fff;
+$secondaryBg: #dcdcdc;
+$darkBg: #000;
+$borderColor: #979797;
+
+$baseTextColor: rgba(0, 0, 0, 0.7);
+$fadedTextColor: rgba(255, 255, 255, 0.7);

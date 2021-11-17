@@ -1,0 +1,18 @@
+// _button.scss
+.m-button {
+  display: block;
+  width: 194px;
+  height: 64px;
+  border: 1px solid $borderColor;
+  line-height: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $mainBg;
+  &--form {
+    background: $darkBg;
+    display: inline-block;
+    width: 150px;
+    vertical-align: middle;
+    margin-left: -4px;
+  }
+}

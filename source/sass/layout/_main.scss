@@ -1,0 +1,47 @@
+// _main.scss
+.l-main {
+  overflow: hidden;
+  // width: 100%;
+  height: 512px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 100px;
+  &_container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  &_postImg {
+    // display: block;
+    position: absolute;
+    width: 100%;
+    height: 512px;
+    text-decoration: none;
+    background: url('img/featured-post.jpg') 0 15% no-repeat;
+    filter: blur(5px);
+    transition: filter 0.5s ease;
+    z-index: -1;
+    &:hover {
+      text-decoration: none;
+      filter: blur(0);
+    }
+  }
+  &_postTitle {
+    margin: 225px auto 70px auto;;
+    line-height: 70px;
+    font-family: $secondFont;
+    color: $mainBg;
+    font-weight: normal;
+    font-size: 54px;
+    letter-spacing: 1.5px;
+    filter: blur(0);
+
+  }
+  &_postButton {
+    margin: 0 auto;
+    filter: blur(0);
+  }
+}
+.l-main > :not(.l-main_postImg):hover .l-main_postImg {
+  filter: blur(0);
+}

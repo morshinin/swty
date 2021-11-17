@@ -1,0 +1,49 @@
+{
+  "name": "nikesportwatch",
+  "version": "0.1.0",
+  "description": "Nikesportwatch landing page",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morshinin/nikesportwatch.git"
+  },
+  "keywords": [
+    "nike",
+    "sport",
+    "watch",
+    "landing",
+    "page",
+    "akkar",
+    "group"
+  ],
+  "author": "Mikhail Morshinin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morshinin/nikesportwatch/issues"
+  },
+  "homepage": "https://github.com/morshinin/nikesportwatch#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "browser-sync": "^2.11.1",
+    "cssnano": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-csslint": "^0.2.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-postcss": "^6.0.1",
+    "gulp-sass": "^2.1.1",
+    "lost": "^6.7.1",
+    "postcss-font-magician": "^1.4.0",
+    "postcss-pxtorem": "^3.3.1"
+  },
+  "dependencies": {
+    "normalize-scss": "^4.0.3",
+    "normalize.css": "^3.0.3"
+  }
+}

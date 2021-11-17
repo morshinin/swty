@@ -1,0 +1,24 @@
+// _slider.scss
+.l-slider {
+  margin-bottom: 100px;
+  &_item {
+    // width: 50%;
+    height: 640px;
+    // float: left;
+    lost-column: 1/2 2 0;
+    &--left {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/men.jpg') center center no-repeat;
+      }
+    &--right {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/women.jpg') center center no-repeat;
+      // background-image: url('img/women.jpg');
+      // background-color: rgba(0, 0, 0, 0.5);
+
+    }
+  }
+  &_button {
+    position: relative;
+    top: 468px;
+    margin: 0 auto;
+  }
+}
